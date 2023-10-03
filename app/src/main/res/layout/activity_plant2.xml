@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".plantone">
+    tools:context=".plant2">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -22,7 +22,7 @@
             >
 
             <Button
-                android:id="@+id/language"
+                android:id="@+id/language_2"
                 android:layout_width="@dimen/_90sdp"
                 android:layout_height="@dimen/_50sdp"
                 android:background="@drawable/button_background"
@@ -49,7 +49,7 @@
             android:fontFamily="@font/amaranth"
             android:layout_marginLeft="@dimen/_10sdp"
             android:textSize="@dimen/_30sdp"
-            android:text="@string/p1"
+            android:text="@string/p2"
             style="@style/TextView"
             />
 
@@ -79,7 +79,7 @@
                 />
 
             <TextView
-                android:text="@string/l1"
+                android:text="@string/l2"
 
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -115,7 +115,7 @@
                 />
 
             <TextView
-                android:text="@string/s1"
+                android:text="@string/s2"
 
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -152,7 +152,7 @@
                 />
 
             <TextView
-                android:text="@string/f1"
+                android:text="@string/f2"
 
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -187,7 +187,7 @@
                 />
 
             <TextView
-                android:text="@string/d1"
+                android:text="@string/d2"
 
 
                 android:layout_width="wrap_content"
@@ -223,7 +223,7 @@
                 />
 
             <TextView
-                android:text="@string/dt1"
+                android:text="@string/dt2"
 
 
                 android:layout_width="wrap_content"
@@ -261,7 +261,7 @@
                 />
 
             <TextView
-                android:text="@string/m1"
+                android:text="@string/m2"
 
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -298,7 +298,7 @@
                 />
 
             <TextView
-                android:text="@string/b1"
+                android:text="@string/b2"
 
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -338,7 +338,7 @@
                 />
 
             <TextView
-                android:text="@string/se1"
+                android:text="@string/se2"
 
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

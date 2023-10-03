@@ -25,38 +25,75 @@
 
 
     <!--    //plants name -->
-
     <string name="p1">Acacia nilotica</string>
     <string name="p2">Acalypha indica</string>
+    <string name="p3">Allium sativum</string>
+    <string name="p4">Anethum graveolens</string>
+    <string name="p5">Argyreia nervosa</string>
+    <string name="p6">Asparagus racemosus</string>
+    <!--    <string name="p7"></string>-->
+    <!--    <string name="p8"></string>-->
+    <!--    <string name="p9"></string>-->
+    <!--    <string name="p10"></string>-->
+    <!--    <string name="p11"></string>-->
+    <!--    <string name="p12"></string>-->
+    <!--    <string name="p13"></string>-->
+    <!--    <string name="p14"></string>-->
+    <!--    <string name="p15"></string>-->
+    <!--    <string name="p16"></string>-->
+    <!--    <string name="p17"></string>-->
 
 
     <!--    local name -->
     <string name="l1">Baval</string>
     <string name="l2">Dadro</string>
+    <string name="l3">Lasan</string>
+    <string name="l4">Suva</string>
+    <string name="l5">Vardharo</string>
+    <string name="l6">Vechhekato</string>
+
 
     <!--        Scientific Name:- -->
     <string name="s1">Vachellia nilotica</string>
+    <string name="s2">Acalypha indica</string>
+    <string name="s3">Allium sativum</string>
+    <string name="s4"> Anethum graveolens</string>
+    <string name="s5"> Argyreia nervosa</string>
+    <string name="s6">Asparagus racemosus</string>
+
 
     <!--        Family-->
     <string name="f1">Fabaceae</string>
+    <string name="f2">Euphorbiaceae</string>
+    <string name="f3">Amaryllidaceae</string>
+    <string name="f4">Apiaceae</string>
+    <string name="f5">Convolvulaceae</string>
+    <string name="f6">Asparagaceae</string>
 
 
     <!--    description-->
     <string name="d1">Acacia nilotica or Vachellia nilotica is a tree 5–20 m high with a dense spheric crown, stems and branches usually dark to black coloured, fissured bark, grey-pinkish slash, exuding a reddish low quality gum.The tree has thin, straight, light, grey spines in axillary pairs, usually in 3 to 12 pairs, 5 to 7.5 cm (3 in) long in young trees, mature trees commonly without thorns. The leaves are bipinnate, with 3–6 pairs of pinnulae and 10–30 pairs of leaflets each, tomentose, rachis with a gland at the bottom of the last pair of pinnulae. Flowers in globulous heads 1.2–1.5 cm in diameter of a bright golden-yellow color, set up either axillary or whorly on peduncles 2–3 cm long located at the end of the branches. Pods are strongly constricted, hairy, white-grey, thick and softly tomentose. Its seeds number approximately 8000/kg</string>
+    <string name="d2">An erect annual herb that can be easily distinguished by the cup-shaped involucre that surrounds the small flowers in the catkin-like inflorescence.It can grow up to 1.2 m (3.9 ft) tall in favorable circumstances, but is usually smaller. The leaves are broad ovate, 1.2 cm–6.5 cm × 1 cm–4 cm (0.47 in–2.56 in × 0.39 in–1.57 in). The leaf base is rounded to shortly attenuate. The leaf margin is basally 5-nerved and is crenate-serrate with an acute or obtuse apex. The petiole is 1.5–5.5 cm (0.59–2.17 in) long.</string>
+
 
     <!--    distribution-->
     <string name="dt1">Acacia nilotica or Vachellia nilotica is native from Egypt, across the Maghreb and Sahel, south to Mozambique and KwaZulu-Natal, South Africa, and east through the Arabian Peninsula to the Indian subcontinent and Burma. It has become widely naturalised outside its native range including Zanzibar and Australia.It is spread by livestock.</string>
+    <string name="dt2">Acalypha indica occurs widely throughout the Old World tropics. In Africa, it occurs in Nigeria in West Africa and further widely throughout tropical Africa and the Indian Ocean islands. It also occurs in India, South East Asia, Yemen, and Oceania. It has been introduced to the New World Tropics.</string>
 
 
     <!--    medicinal uses:- -->
-
     <string name="m1">In traditional medicine, Acacia Nilotica is widely used. This plant has anti-microbial,anti-plasmodial and antioxidant activity and used for treatment of human immunodeficiency virus, hepatitis C virus and cancer. 7 It is useful for treatment of venereal diseases, nausea, burns and wounds, stomachache and diarrhea</string>
+    <string name="m2">Based on literature studies, Acalypha indica has the capability to serve as anthelmintic, anti-inflammation, anti-bacterial, anti-cancer, anti-diabetes, anti-hyperlipidemic, anti-obesity, anti-venom, hepatoprotective, hypoxia, and wound healing medicine.</string>
+
+
     <!--    Benifit:- -->
-
     <string name="b1">nilotica fruit is used for the treatment of sore throat, cold, bronchitis, pneumonia, ophthalmia, diarrhoea, dysentery, leprosy and venereal diseases as per Unani traditional medicine.</string>
-    <!--    Side Effects:- -->
+    <string name="b2">Based on literature studies, Acalypha indica has the capability to serve as anthelmintic, anti-inflammation, anti-bacterial, anti-cancer, anti-diabetes, anti-hyperlipidemic, anti-obesity, anti-venom, hepatoprotective, hypoxia, and wound healing medicine.</string>
 
+
+    <!--    Side Effects:- -->
     <string name="se1">Acacia is LIKELY SAFE for most adults when taken by mouth in amounts commonly found in food. Acacia is POSSIBLY SAFE when taken by mouth in amounts used for medical purposes. Up to 30 grams daily has been used safely for 6 weeks. However, it can cause minor adverse effects, including gas, bloating, nausea, and loose stools.</string>
+    <string name="se2">Some of the chemical compounds in Acalypha indica cause dark chocolate-brown discoloration of blood, and gastrointestinal irritation in rabbits. Ingestion of Acalypha indica may lead to hemolysis in people suffering from glucose-6-phosphate dehydrogenase deficiency.</string>
 
 
 </resources>

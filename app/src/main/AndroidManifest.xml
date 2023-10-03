@@ -19,9 +19,23 @@
         android:theme="@style/NoActionBar"
         tools:targetApi="31">
         <activity
+            android:name=".plant6"
+            android:exported="false" />
+        <activity
+            android:name=".plant5"
+            android:exported="false" />
+        <activity
+            android:name=".plant4"
+            android:exported="false" />
+        <activity
+            android:name=".plant3"
+            android:exported="false" />
+        <activity
+            android:name=".plant2"
+            android:exported="false" />
+        <activity
             android:name=".plantone"
             android:exported="false" />
-
         <activity
             android:name=".plants"
             android:exported="false" />

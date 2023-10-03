@@ -64,6 +64,10 @@ public class PlantAdpater  extends  RecyclerView.Adapter<PlantAdpater.MyHolder>{
                     if (position == 0){
                         new commanmethod(context , plantone.class);
                     }
+
+                    else if (position == 1) {
+                        new  commanmethod(context ,plant2.class);
+                    }
                 }
             });
     }

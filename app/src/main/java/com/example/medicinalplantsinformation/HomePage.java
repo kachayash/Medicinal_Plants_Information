@@ -127,9 +127,9 @@ public class HomePage extends AppCompatActivity {
                 Intent intent = new Intent(HomePage.this , plantone.class);
                 startActivity(intent);
             }
-
-
-
+            else if (check == 2) {
+                    new commanmethod(HomePage.this, plant2.class);
+            }
 
 
 //            builder.setPositiveButton("ok", new DialogInterface.OnClickListener() {
