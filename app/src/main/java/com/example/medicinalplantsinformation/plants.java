@@ -25,12 +25,12 @@ public class plants extends AppCompatActivity {
     ArrayList<ModelClass> searchlist;
 
 
-    String [] plantsname = {"Acacia nilotica" , "Acalypha indica"};
-    String [] localname = {"Baval" ,"Dadro"};
+    String [] plantsname = {"Acacia nilotica" , "Acalypha indica" ,"Allium sativum", "Anethum graveolens", "Argyreia nervosa","Asparagus racemosus"};
+    String [] localname = {"Baval" ,"Dadro","Lasan","Suva","Vardharo","Vechhekato"};
 
 
 
-    int[] img = {R.drawable.acacia_nolotica ,R.drawable.acalypha_indica};
+    int[] img = {R.drawable.acacia_nolotica ,R.drawable.acalypha_indica,R.drawable.p3,R.drawable.p4,R.drawable.p5,R.drawable.p6};
 
 
 

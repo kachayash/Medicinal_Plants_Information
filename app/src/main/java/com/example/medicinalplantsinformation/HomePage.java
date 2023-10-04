@@ -131,6 +131,22 @@ public class HomePage extends AppCompatActivity {
                     new commanmethod(HomePage.this, plant2.class);
             }
 
+            else if (check == 3) {
+                new commanmethod(HomePage.this, plant3.class);
+            }
+
+            else if (check == 4) {
+                new commanmethod(HomePage.this, plant4.class);
+            }
+
+            else if (check == 5) {
+                new commanmethod(HomePage.this, plant5.class);
+            }
+
+            else if (check == 6) {
+                new commanmethod(HomePage.this, plant6.class);
+            }
+
 
 //            builder.setPositiveButton("ok", new DialogInterface.OnClickListener() {
 //                @Override

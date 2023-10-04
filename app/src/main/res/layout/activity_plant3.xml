@@ -1,9 +1,359 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".plant3">
+    tools:context=".plant2">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+        <!--        //button-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginLeft="@dimen/_20sdp"
+            android:layout_marginRight="@dimen/_20sdp"
+            >
+
+            <Button
+                android:id="@+id/language_3"
+                android:layout_width="@dimen/_90sdp"
+                android:layout_height="@dimen/_50sdp"
+                android:background="@drawable/button_background"
+                android:text="Select Language"
+                android:textSize="@dimen/_15sdp"
+                android:layout_alignParentEnd="true"
+
+                />
+        </RelativeLayout>
+
+        <!--        //image-->
+        <ImageView
+            android:layout_margin="@dimen/_15sdp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_230sdp"
+            android:src="@drawable/p3"
+            />
+
+
+        <!--        plants name-->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amaranth"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:textSize="@dimen/_30sdp"
+            android:text="@string/p3"
+            style="@style/TextView"
+            />
+
+
+        <!--        local name-->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/_15sdp"
+
+            >
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/TextView"
+                android:fontFamily="@font/amaranth"
+
+
+                android:layout_marginLeft="@dimen/_10sdp"
+
+                android:textSize="@dimen/_20sdp"
+                android:text="@string/Local_name"
+
+                />
+
+            <TextView
+                android:text="@string/l3"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textSize="@dimen/_20sdp"
+                android:textColor="@color/black"
+
+                android:layout_marginLeft="@dimen/_10sdp"
+                />
+        </LinearLayout>
+
+        <!--        Scientific Name:- -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/_15sdp"
+
+            >
+            <TextView
+                android:fontFamily="@font/amaranth"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/TextView"
+
+                android:layout_marginLeft="@dimen/_10sdp"
+
+                android:textSize="@dimen/_20sdp"
+                android:text="@string/scientific_name"
+
+                />
+
+            <TextView
+                android:text="@string/s3"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textSize="@dimen/_20sdp"
+                android:textColor="@color/black"
+
+                android:layout_marginLeft="@dimen/_10sdp"
+                />
+        </LinearLayout>
+
+
+        <!--        Family-->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/_15sdp"
+
+            >
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/TextView"
+                android:fontFamily="@font/amaranth"
+
+                android:layout_marginLeft="@dimen/_10sdp"
+
+                android:textSize="@dimen/_20sdp"
+                android:text="@string/family"
+
+                />
+
+            <TextView
+                android:text="@string/f3"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textSize="@dimen/_20sdp"
+                android:textColor="@color/black"
+
+                android:layout_marginLeft="@dimen/_10sdp"
+                />
+        </LinearLayout>
+
+        <!--        Description:- -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/_15sdp"
+
+            >
+            <TextView
+                android:fontFamily="@font/amaranth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/TextView"
+
+                android:layout_marginLeft="@dimen/_10sdp"
+
+                android:textSize="@dimen/_20sdp"
+                android:text="@string/Description"
+
+                />
+
+            <TextView
+                android:text="@string/d3"
+
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/_15sdp"
+                android:textColor="@color/black"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:layout_marginRight="@dimen/_15sdp"                />
+        </LinearLayout>
+
+        <!--        Distribution:- -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/_15sdp"
+
+            >
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/TextView"
+                android:fontFamily="@font/amaranth"
+
+                android:layout_marginLeft="@dimen/_10sdp"
+
+                android:textSize="@dimen/_20sdp"
+                android:text="@string/Distribution"
+
+                />
+
+            <TextView
+                android:text="@string/dt3"
+
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/_15sdp"
+                android:textColor="@color/black"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:layout_marginRight="@dimen/_15sdp"                />
+
+        </LinearLayout>
+
+
+        <!--        medicinal uses:- -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/_15sdp"
+
+            >
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/TextView"
+                android:fontFamily="@font/amaranth"
+
+                android:layout_marginLeft="@dimen/_10sdp"
+
+                android:textSize="@dimen/_20sdp"
+                android:text="@string/Medicinal_uses"
+
+                />
+
+            <TextView
+                android:text="@string/m3"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textSize="@dimen/_15sdp"
+                android:textColor="@color/black"
+
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:layout_marginRight="@dimen/_15sdp"                />
+        </LinearLayout>
+
+        <!--        Benifit-->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/_15sdp"
+
+            >
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/TextView"
+                android:fontFamily="@font/amaranth"
+
+                android:layout_marginLeft="@dimen/_10sdp"
+
+                android:textSize="@dimen/_20sdp"
+                android:text="@string/Benifits"
+
+                />
+
+            <TextView
+                android:text="@string/b3"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textSize="@dimen/_15sdp"
+                android:textColor="@color/black"
+
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:layout_marginRight="@dimen/_15sdp"
+                />
+
+
+        </LinearLayout>
+
+        <!--    Side Effects:- -->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginBottom="@dimen/_10sdp"
+            >
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/TextView"
+                android:fontFamily="@font/amaranth"
+
+                android:layout_marginLeft="@dimen/_10sdp"
+
+                android:textSize="@dimen/_20sdp"
+                android:text="@string/Side_Effects"
+
+                />
+
+            <TextView
+                android:text="@string/se3"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:textSize="@dimen/_15sdp"
+                android:textColor="@color/black"
+
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_15sdp"
+                android:layout_marginRight="@dimen/_15sdp"
+                />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</ScrollView>
