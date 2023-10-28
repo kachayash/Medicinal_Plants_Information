@@ -7,6 +7,8 @@
     tools:context=".plant2">
 
     <LinearLayout
+        android:background="#D7CCFFF2"
+
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
@@ -25,7 +27,7 @@
                 android:id="@+id/language_2"
                 android:layout_width="@dimen/_90sdp"
                 android:layout_height="@dimen/_50sdp"
-                android:background="@drawable/button_background"
+                android:background="@drawable/button_background_plants"
                 android:text="Select Language"
                 android:textSize="@dimen/_15sdp"
                 android:layout_alignParentEnd="true"
@@ -38,7 +40,7 @@
             android:layout_margin="@dimen/_15sdp"
             android:layout_width="match_parent"
             android:layout_height="@dimen/_230sdp"
-            android:src="@drawable/acacia_nolotica"
+            android:src="@drawable/acalypha_indica"
             />
 
 

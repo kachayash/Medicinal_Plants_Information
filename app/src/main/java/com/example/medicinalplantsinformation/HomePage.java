@@ -18,8 +18,13 @@ import android.view.View;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.denzcoskun.imageslider.ImageSlider;
+import com.denzcoskun.imageslider.constants.ScaleTypes;
+import com.denzcoskun.imageslider.models.SlideModel;
 import com.journeyapps.barcodescanner.ScanContract;
 import com.journeyapps.barcodescanner.ScanOptions;
+
+import java.util.ArrayList;
 
 public class HomePage extends AppCompatActivity {
 
@@ -46,7 +51,22 @@ public class HomePage extends AppCompatActivity {
         text=findViewById(R.id.user_text);
         sp=getSharedPreferences(commanclass.PREF,MODE_PRIVATE);
 
+        //slidebar
+        ImageSlider imageSlider =findViewById(R.id.sld);
+        ArrayList<SlideModel> slideModels = new ArrayList<>();
 
+        slideModels.add(new SlideModel(R.drawable.acacia_nolotica , ScaleTypes.FIT));
+        slideModels.add(new SlideModel(R.drawable.acalypha_indica , ScaleTypes.FIT));
+        slideModels.add(new SlideModel(R.drawable.p4 , ScaleTypes.FIT));
+        slideModels.add(new SlideModel(R.drawable.p8 , ScaleTypes.FIT));
+        slideModels.add(new SlideModel(R.drawable.p15 , ScaleTypes.FIT));
+        slideModels.add(new SlideModel(R.drawable.p17, ScaleTypes.FIT));
+        slideModels.add(new SlideModel(R.drawable.p18 , ScaleTypes.FIT));
+        slideModels.add(new SlideModel(R.drawable.p19 , ScaleTypes.FIT));
+        slideModels.add(new SlideModel(R.drawable.p20 , ScaleTypes.FIT));
+        slideModels.add(new SlideModel(R.drawable.p21 , ScaleTypes.FIT));
+
+        imageSlider.setImageList(slideModels,ScaleTypes.FIT);
 
         // name set textview
         text.setText(sp.getString(commanclass.NAME,""));
@@ -147,6 +167,116 @@ public class HomePage extends AppCompatActivity {
                 new commanmethod(HomePage.this, plant6.class);
             }
 
+            else if (check == 7) {
+                new commanmethod(HomePage.this, plant7.class);
+            } else if (check == 8) {
+                new commanmethod(HomePage.this, plant8.class);
+            } else if (check == 9) {
+                new commanmethod(HomePage.this, plant9.class);
+            } else if (check == 10) {
+                new commanmethod(HomePage.this, plant10.class);
+            } else if (check == 11) {
+                new commanmethod(HomePage.this, plant11.class);
+            } else if (check == 12) {
+                new commanmethod(HomePage.this, plant12.class);
+            } else if (check == 13) {
+                new commanmethod(HomePage.this, plant13.class);
+            } else if (check == 14) {
+                new commanmethod(HomePage.this, plant14.class);
+            } else if (check == 15) {
+                new commanmethod(HomePage.this, plant15.class);
+            } else if (check == 16) {
+                new commanmethod(HomePage.this, plant16.class);
+            } else if (check == 17) {
+                new commanmethod(HomePage.this, plant17.class);
+            } else if (check == 18) {
+                new commanmethod(HomePage.this, plant18.class);
+            } else if (check == 19) {
+                new commanmethod(HomePage.this, plant19.class);
+            } else if (check == 20) {
+                new commanmethod(HomePage.this, plant20.class);
+            } else if (check == 21) {
+                new commanmethod(HomePage.this, plant21.class);
+            } else if (check == 22) {
+                new commanmethod(HomePage.this, plant22.class);
+            }
+            else if (check == 23) {
+                new commanmethod(HomePage.this, plant23.class);
+            }
+            else if (check == 24) {
+                new commanmethod(HomePage.this, plant24.class);
+            }
+            else if (check == 25) {
+                new commanmethod(HomePage.this, plant25.class);
+            }
+            else if (check == 26) {
+                new commanmethod(HomePage.this, plant26.class);
+            }
+            else if (check == 27) {
+                new commanmethod(HomePage.this, plant27.class);
+            }
+            else if (check == 28) {
+                new commanmethod(HomePage.this, plant28.class);
+            }
+            else if (check == 29) {
+                new commanmethod(HomePage.this, plant29.class);
+            }
+            else if (check == 30) {
+                new commanmethod(HomePage.this, plant30.class);
+            }   else if (check == 31) {
+                new commanmethod(HomePage.this, plant31.class);
+            }
+            else if (check == 32) {
+                new commanmethod(HomePage.this, plant32.class);
+            }
+            else if (check == 33) {
+                new commanmethod(HomePage.this, plant33.class);
+            }
+            else if (check == 34) {
+                new commanmethod(HomePage.this, plant34.class);
+            }
+            else if (check == 35) {
+                new commanmethod(HomePage.this, plant35.class);
+            }
+            else if (check == 36) {
+                new commanmethod(HomePage.this, plant36.class);
+            }
+            else if (check == 37) {
+                new commanmethod(HomePage.this, plant37.class);
+            }
+            else if (check == 38) {
+                new commanmethod(HomePage.this, plant38.class);
+            }
+            else if (check == 39) {
+                new commanmethod(HomePage.this, plant39.class);
+            }
+
+            else if (check == 41) {
+                new commanmethod(HomePage.this, plant41.class);
+            }else if (check == 42) {
+                new commanmethod(HomePage.this, plant42.class);
+            }else if (check == 43) {
+                new commanmethod(HomePage.this, plant43.class);
+            }else if (check == 44) {
+                new commanmethod(HomePage.this, plant44.class);
+            }else if (check == 45) {
+                new commanmethod(HomePage.this, plant45.class);
+            }else if (check == 46) {
+                new commanmethod(HomePage.this, plant46.class);
+            }else if (check == 47) {
+                new commanmethod(HomePage.this, plant47.class);
+            }else if (check == 48) {
+                new commanmethod(HomePage.this, plant48.class);
+            }else if (check == 49) {
+                new commanmethod(HomePage.this, plant49.class);
+            }else if (check == 50) {
+                new commanmethod(HomePage.this, plant50.class);
+            }
+
+
+            else {
+                new commanmethod(HomePage.this , "Pls Scan Original Qr Code");
+            }
 
 //            builder.setPositiveButton("ok", new DialogInterface.OnClickListener() {
 //                @Override
@@ -187,6 +317,8 @@ public class HomePage extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
-
-
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+    }
 }
