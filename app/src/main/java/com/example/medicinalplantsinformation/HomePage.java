@@ -271,10 +271,33 @@ public class HomePage extends AppCompatActivity {
                 new commanmethod(HomePage.this, plant49.class);
             }else if (check == 50) {
                 new commanmethod(HomePage.this, plant50.class);
-            }
+            }else if (check == 51) {
+                new commanmethod(HomePage.this, plant51.class);
+            }else if (check == 52) {
+                new commanmethod(HomePage.this, plant52.class);
+            }else if (check == 53) {
+                new commanmethod(HomePage.this, plant53.class);
+            }else if (check == 54) {
+                new commanmethod(HomePage.this, plant54.class);
+            }else if (check == 55) {
+                new commanmethod(HomePage.this, plant55.class);
+            }else if (check == 56) {
+                new commanmethod(HomePage.this, plant56.class);
+            }else if (check == 57) {
+                new commanmethod(HomePage.this, plant57.class);
+            }else if (check == 58) {
+                new commanmethod(HomePage.this, plant58.class);
+            }else if (check == 59) {
+                new commanmethod(HomePage.this, plant59.class);
+            }else if (check == 60) {
+                new commanmethod(HomePage.this, plant60.class);
+            } else if (check==61) {
+                new commanmethod(HomePage.this, plant61.class);
 
+            } else if (check==62) {
+                new commanmethod(HomePage.this, plant62.class);
 
-            else {
+            }else {
                 new commanmethod(HomePage.this , "Pls Scan Original Qr Code");
             }
 

@@ -19,6 +19,81 @@
         android:theme="@style/NoActionBar"
         tools:targetApi="31">
         <activity
+            android:name=".plant75"
+            android:exported="false" />
+        <activity
+            android:name=".plant74"
+            android:exported="false" />
+        <activity
+            android:name=".plant73"
+            android:exported="false" />
+        <activity
+            android:name=".plant72"
+            android:exported="false" />
+        <activity
+            android:name=".plant71"
+            android:exported="false" />
+        <activity
+            android:name=".plant70"
+            android:exported="false" />
+        <activity
+            android:name=".plant69"
+            android:exported="false" />
+        <activity
+            android:name=".plant68"
+            android:exported="false" />
+        <activity
+            android:name=".plant67"
+            android:exported="false" />
+        <activity
+            android:name=".plant66"
+            android:exported="false" />
+        <activity
+            android:name=".plant65"
+            android:exported="false" />
+        <activity
+            android:name=".plant64"
+            android:exported="false" />
+        <activity
+            android:name=".plant63"
+            android:exported="false" />
+        <activity
+            android:name=".plant62"
+            android:exported="false" />
+        <activity
+            android:name=".plant61"
+            android:exported="false" />
+        <activity
+            android:name=".plant60"
+            android:exported="false" />
+        <activity
+            android:name=".plant59"
+            android:exported="false" />
+        <activity
+            android:name=".plant58"
+            android:exported="false" />
+        <activity
+            android:name=".plant57"
+            android:exported="false" />
+        <activity
+            android:name=".plant56"
+            android:exported="false" />
+        <activity
+            android:name=".plant55"
+            android:exported="false" />
+        <activity
+            android:name=".plant54"
+            android:exported="false" />
+        <activity
+            android:name=".plant53"
+            android:exported="false" />
+        <activity
+            android:name=".plant52"
+            android:exported="false" />
+        <activity
+            android:name=".plant51"
+            android:exported="false" />
+        <activity
             android:name=".plant50"
             android:exported="false" />
         <activity

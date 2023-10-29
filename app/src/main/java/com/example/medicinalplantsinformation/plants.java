@@ -118,7 +118,32 @@ public class plants extends AppCompatActivity {
 //                    49
                     "Pergularia daemia",
 //                    50
-                    "Phoenix sylvestris"
+                    "Phoenix sylvestris",
+//                    51
+                    "Piper batle",
+//                    52
+                    "Piper Longym",
+//                    53
+                    "Piper nirgum",
+//                    54
+                    "Plantago ovata",
+//                    55
+                    "Plumbago zelanica",
+//                    56
+                    "Pongamia pinnata",
+//                    57
+                    "Ricinus communis",
+//                    58
+                    "Santalum album",
+//                    59
+                    "Securinega leucopyrus",
+//                    60
+                    "Senna alexandrina",
+//                    61
+                    "Senna auriculata",
+//                    62
+                    "Senna tora"
+
             };
     String [] localname = {
             "Baval" ,
@@ -213,7 +238,28 @@ public class plants extends AppCompatActivity {
 //            49
             "Nagladudheli",
 //            50
-            "Khajuri"
+            "Khajuri",
+//            51
+            "Nagarval",
+//            52
+            "Lindipipar",
+//            53
+            "Mare",
+//            544
+            "Isabgol",
+//            55
+            "Chitrak",
+//            56
+            "Karanj",
+//            57
+            "Arandi",
+//            58
+            "Chandan",
+//            59
+            "Shirni",
+//            60
+            "Sonamukhi","Aval","Kunwadiyo"
+//
     };
 
 
@@ -241,7 +287,19 @@ public class plants extends AppCompatActivity {
             R.drawable.p47,
             R.drawable.p48,
             R.drawable.p49,
-            R.drawable.p50
+            R.drawable.p50,
+            R.drawable.p51,
+            R.drawable.p52,
+            R.drawable.p53,
+            R.drawable.p54,
+            R.drawable.p55,
+            R.drawable.p56,
+            R.drawable.p57,
+            R.drawable.p58,
+            R.drawable.p59,
+            R.drawable.p60,
+            R.drawable.p61,
+            R.drawable.p62
 
     };
 
