@@ -116,7 +116,7 @@ public class HomePage extends AppCompatActivity {
         profile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                new commanmethod(HomePage.this, "Profile");
+                new commanmethod(HomePage.this,com.example.medicinalplantsinformation.profile.class);
             }
         });
 

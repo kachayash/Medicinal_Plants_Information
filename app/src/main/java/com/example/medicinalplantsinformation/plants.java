@@ -295,8 +295,8 @@ public class plants extends AppCompatActivity {
             R.drawable.p55,
             R.drawable.p56,
             R.drawable.p57,
-            R.drawable.p58,
             R.drawable.p59,
+            R.drawable.s1,
             R.drawable.p60,
             R.drawable.p61,
             R.drawable.p62

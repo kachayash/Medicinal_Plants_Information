@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#062F15"
+    tools:context=".profile">
+`
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Show Profile"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="110dp"
+        />
+
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/edittext_background"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="50dp"
+        android:hint="Enter Name"
+        android:textColorHint="#DFDCDC"
+        android:padding="5dp"
+        android:drawableLeft="@drawable/user"
+        android:drawablePadding="10dp"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:id="@+id/name_enter_p"
+
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/edittext_background"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="50dp"
+        android:hint="Enter Phone No."
+        android:textColorHint="#DFDCDC"
+        android:padding="5dp"
+        android:drawableLeft="@drawable/telephone"
+        android:drawablePadding="10dp"
+        android:inputType="number"
+        android:maxLength="10"
+        android:textColor="@color/white"
+        android:id="@+id/phone_enter_p"
+
+        />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/edittext_background"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="50dp"
+        android:hint="Enter Email Id"
+        android:textColorHint="#DFDCDC"
+        android:padding="5dp"
+        android:drawableLeft="@drawable/email"
+        android:drawablePadding="10dp"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/white"
+        android:id="@+id/email_enter_p"
+
+        />
+</LinearLayout>

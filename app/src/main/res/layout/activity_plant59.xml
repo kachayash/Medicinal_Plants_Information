@@ -36,15 +36,15 @@
         </RelativeLayout>
 
         <!--        //image-->
-        <ImageView
-            android:layout_margin="@dimen/_15sdp"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/_230sdp"
-            android:src="@drawable/p59"
-            />
 
 
         <!--        plants name-->
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_230sdp"
+            android:layout_margin="@dimen/_15sdp"
+            android:src="@drawable/s1" />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
