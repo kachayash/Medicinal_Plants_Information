@@ -1,9 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".aboutas">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:textSize="@dimen/_15sdp"
+        android:text="At [Medical Plant Information], we are passionate about providing comprehensive and reliable information about medicinal plants and their uses. Our platform is dedicated to offering a wealth of knowledge and resources for individuals seeking to explore the therapeutic benefits and diverse applications of various botanical species.\n\n
+
+Our team consists of botanists, herbalists, researchers, and healthcare professionals who are committed to curating accurate, up-to-date, and scientifically-backed information on medicinal plants. We understand the importance of credible information in the field of natural remedies and traditional medicine.\n\n
+
+Our mission is to bridge the gap between traditional knowledge and modern science, offering a platform that caters to both enthusiasts and professionals in the field of herbal medicine. We aim to empower our users with the knowledge to make informed decisions about utilizing plants for their well-being.\n\n
+
+Through our articles, guides, and resources, we strive to promote responsible and safe usage of medicinal plants while highlighting their historical significance, cultural relevance, and contemporary research findings. We believe in the potential of nature's gifts and their role in complementing conventional healthcare practices.\n\n
+
+We are dedicated to fostering a community that values the natural world and seeks to harness its potential for holistic health and wellness. Whether you're a novice or an expert in botanical medicine, [Website Name] is your go-to resource for accurate, trustworthy, and insightful information about medicinal plants.
+
+Thank you for being a part of our journey towards discovering the healing power of nature's remedies."
+        />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Presented by GP Rajkot "
+
+
+            />
+    </LinearLayout>
+</ScrollView>

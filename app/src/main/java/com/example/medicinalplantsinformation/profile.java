@@ -29,6 +29,6 @@ public class profile extends AppCompatActivity {
 
         n.setText(sp.getString(commanclass.NAME,""));
         e.setText(sp.getString(commanclass.EMAIL,""));
-        p.setText(sp.getString(commanclass.PASSWORD,""));
+        p.setText(sp.getString(commanclass.CONTACT,""));
     }
 }
